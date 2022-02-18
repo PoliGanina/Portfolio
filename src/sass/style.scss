@@ -15,9 +15,31 @@
     width: 1140px;
     margin: 0 auto;
 }
+.gridXL {
+    display: grid;
+    grid-template-columns: calc(100% - 60% - 70px) 60%;
+    grid-template-rows: repeat(2, auto);
+    width: 100%;
+    column-gap: 70px;
+    row-gap: 30px;
+}
+.divider {
+    width: 60px;
+    height: 3px;
+    background-color: $main-color;
+    margin: 25px auto 0 auto;
+}
 
 @import 'blocks/promo';
 @import 'blocks/title';
 @import 'blocks/button';
 @import 'blocks/sidepanel';
 @import 'blocks/menu';
+@import 'blocks/about';
+@import 'blocks/resume';
+@import 'blocks/skills';
+@import 'blocks/portfolio';
+@import 'blocks/price';
+@import 'blocks/contacts';
+@import 'blocks/policy';
+@import 'blocks/media';

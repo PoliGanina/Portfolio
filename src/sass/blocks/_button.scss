@@ -3,4 +3,28 @@
     height: 45px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     padding: 12px 25px;
+    border: none;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+    &:hover {
+        padding: 11px 21px;
+        background: rgba($color: $main-color, $alpha: 0.6) ;
+        font-size: 16px;
+        transition: all 0.5s;
+    }
+    &_promo {
+        margin-left: 44px;
+        border: solid 1px $main-color;
+        background: none;
+        padding: 11px 24px;
+        &:hover {
+            padding: 11px 21px;
+            border: none;
+            background: rgba($color: $main-color, $alpha: 0.6);
+            transition: all 0.5s;
+        }
+
+    }
 }
